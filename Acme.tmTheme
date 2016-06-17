@@ -210,6 +210,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Other Variable</string>
+			<key>scope</key>
+			<string>variable.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D1D1D1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>User-defined Constant</string>
 			<key>scope</key>
 			<string>constant.character, constant.other</string>

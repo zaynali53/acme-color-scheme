@@ -107,6 +107,11 @@ settings:
   settings:
     foreground: '#999999'
 
+- name: 'Other Variable'
+  scope: variable.other
+  settings:
+    foreground: '#D1D1D1'
+
 - name: 'User-defined Constant'
   scope: constant.character, constant.other
   settings:
