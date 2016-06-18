@@ -23,7 +23,7 @@ settings:
     selectionBorder: '#61616140'
     guide: '#42424260'
     activeGuide: '#42424260'
-    gutterForeground: '#424242'
+    gutterForeground: '#42424290'
     shadow: '#00000010'
     bracketsForeground: '#F8F8F2A5'
     bracketsOptions: 'underline'
