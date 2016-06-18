@@ -28,6 +28,8 @@ A dark color scheme by <a href="https://twitter.com/zaynali53" target="_blank">@
     <img src="img/php-preview.png" alt="PHP Preview" width="728">
 </a>
 
+The font used for the code is "<a href="http://www.typography.com/blog/introducing-operator" target="_blank">Operator Mono</a>"
+
 ## Color Palette
 
 There is a list of colors used in Acme. Check it before porting the color scheme to another environments.
