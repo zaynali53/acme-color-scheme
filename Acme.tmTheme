@@ -818,6 +818,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>SCSS: Function</string>
+			<key>scope</key>
+			<string>support.function.misc.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CD122C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>SCSS: Reference Variable</string>
 			<key>scope</key>
 			<string>entity.name.tag.reference.scss</string>

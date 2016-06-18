@@ -407,6 +407,11 @@ settings:
   settings:
     foreground: '#D1D1D1'
 
+- name: 'SCSS: Function'
+  scope: support.function.misc.scss
+  settings:
+    foreground: '#CD122C'
+
 - name: 'SCSS: Reference Variable'
   scope: entity.name.tag.reference.scss
   settings:
