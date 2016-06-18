@@ -394,6 +394,11 @@ settings:
   settings:
     foreground: '#1ABC9C'
 
+- name: 'CSS: Standard Colors'
+  scope: support.constant.color.w3c-standard-color-name, support.constant.color
+  settings:
+    foreground: '#A1004C'
+
 - name: 'CSS: URL'
   scope: variable.parameter.url
   settings:

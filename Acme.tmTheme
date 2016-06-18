@@ -794,6 +794,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>CSS: Standard Colors</string>
+			<key>scope</key>
+			<string>support.constant.color.w3c-standard-color-name, support.constant.color</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A1004C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>CSS: URL</string>
 			<key>scope</key>
 			<string>variable.parameter.url</string>
