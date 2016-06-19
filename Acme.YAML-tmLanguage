@@ -82,7 +82,7 @@ settings:
 - name: 'Logical Operator'
   scope: keyword.operator.logical
   settings:
-    foreground: '#A1004C'
+    foreground: '#C40058'
     fontStyle: 'bold'
 
 - name: 'Regular Expression'
@@ -100,7 +100,7 @@ settings:
 - name: 'Built-in Constant'
   scope: constant.language
   settings:
-    foreground: '#A1004C'
+    foreground: '#C40058'
 
 - name: 'Language Variable'
   scope: variable.language
@@ -335,7 +335,7 @@ settings:
 - name: 'CSS: Selector Punctuation'
   scope: punctuation.definition.entity, meta.attribute-selector
   settings:
-    foreground: '#A1004C'
+    foreground: '#C40058'
 
 - name: 'CSS: Property List Punctuation'
   scope: punctuation.section.property-list
@@ -455,12 +455,12 @@ settings:
 - name: 'Generator Punctuation'
   scope: keyword.generator.asterisk.js
   settings:
-    foreground: '#A1004C'
+    foreground: '#C40058'
 
 - name: 'JS: Function Arrow'
   scope: storage.type.function.arrow.js
   settings:
-    foreground: '#A1004C'
+    foreground: '#C40058'
     fontStyle: 'bold'
 
 - name: 'JS: this Keyword'
@@ -477,12 +477,12 @@ settings:
 - name: 'JS: Spread'
   scope: keyword.operator.spread.js
   settings:
-    foreground: '#A1004C'
+    foreground: '#C40058'
 
 - name: 'JS: Object Super'
   scope: variable.language.super.js
   settings:
-    foreground: '#A1004C'
+    foreground: '#C40058'
 
 - name: 'JS: New Keyword'
   scope: keyword.operator.new.js
@@ -568,7 +568,7 @@ settings:
 - name: 'PHP: Function Punctuation (Return Type)'
   scope: meta.function.return-type.php
   settings:
-    foreground: '#A1004C'
+    foreground: '#C40058'
 
 - name: 'PHP Namespace Keyword'
   scope: keyword.other.namespace.php, keyword.other.use-as.php, 
