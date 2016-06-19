@@ -460,7 +460,7 @@ settings:
 - name: 'JS: Function Arrow'
   scope: storage.type.function.arrow.js
   settings:
-    foreground: '#7C7200'
+    foreground: '#A1004C'
     fontStyle: 'bold'
 
 - name: 'JS: this Keyword'
@@ -477,7 +477,7 @@ settings:
 - name: 'JS: Spread'
   scope: keyword.operator.spread.js
   settings:
-    foreground: '#7C7200'
+    foreground: '#A1004C'
 
 - name: 'JS: Object Super'
   scope: variable.language.super.js
