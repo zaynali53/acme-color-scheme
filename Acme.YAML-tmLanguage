@@ -466,7 +466,7 @@ settings:
 - name: 'JS: this Keyword'
   scope: variable.language.this.js
   settings:
-    foreground: '#A1004C'
+    foreground: '#F62459'
     fontStyle: 'bold italic'
 
 - name: 'JS: Module'
