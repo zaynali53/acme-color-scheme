@@ -447,6 +447,11 @@ settings:
   settings:
     foreground: '#FFFFFF'
 
+- name: 'Array Seperator'
+  scope: meta.group.braces.square.js
+  settings:
+    foreground: '#D1D1D1'
+
 - name: 'Generator Punctuation'
   scope: keyword.generator.asterisk.js
   settings:

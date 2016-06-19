@@ -897,6 +897,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Array Seperator</string>
+			<key>scope</key>
+			<string>meta.group.braces.square.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D1D1D1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Generator Punctuation</string>
 			<key>scope</key>
 			<string>keyword.generator.asterisk.js</string>
