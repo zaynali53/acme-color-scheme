@@ -317,7 +317,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Seperator</string>
+			<string>Separator</string>
 			<key>scope</key>
 			<string>punctuation.separator</string>
 			<key>settings</key>
@@ -897,7 +897,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Array Seperator</string>
+			<string>Array Separator</string>
 			<key>scope</key>
 			<string>meta.group.braces.square.js</string>
 			<key>settings</key>
@@ -1261,7 +1261,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ruby: Method Seperator</string>
+			<string>Ruby: Method Separator</string>
 			<key>scope</key>
 			<string>punctuation.separator.method.ruby</string>
 			<key>settings</key>

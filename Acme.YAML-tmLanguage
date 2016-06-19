@@ -156,7 +156,7 @@ settings:
     foreground: '#1ABC9C'
     fontStyle: 'italic'
 
-- name: 'Seperator'
+- name: 'Separator'
   scope: punctuation.separator
   settings:
     foreground: '#D1D1D1'
@@ -447,7 +447,7 @@ settings:
   settings:
     foreground: '#FFFFFF'
 
-- name: 'Array Seperator'
+- name: 'Array Separator'
   scope: meta.group.braces.square.js
   settings:
     foreground: '#D1D1D1'
@@ -626,7 +626,7 @@ settings:
     foreground: '#D24D57'
     fontStyle: 'regular'
 
-- name: 'Ruby: Method Seperator'
+- name: 'Ruby: Method Separator'
   scope: punctuation.separator.method.ruby
   settings:
     foreground: '#4ECDC4'
