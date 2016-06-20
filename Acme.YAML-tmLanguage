@@ -517,7 +517,7 @@ settings:
 - name: 'JSX: Embedded Section Punctuation'
   scope: punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx
   settings:
-    foreground: '#C40058'
+    foreground: '#7C7200'
 
 # ---------- Flow Highlight
 
