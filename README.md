@@ -2,6 +2,25 @@
 
 A Dark Color Scheme For Web Artisans - by <a href="https://twitter.com/zaynali53" target="_blank">@zaynali53</a>
 
+## Easy installation
+You can install this awesome color scheme through the [Package Control](https://packagecontrol.io/installation).
+
+1. Press <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd> to open the command palette.
+2. Type *"install package"* and press enter. Then search for *"Acme Color Scheme"*
+
+## Manual installation
+
+1. Download the [latest release](https://github.com/zaynali53/acme-color-scheme/releases/latest), extract and rename the directory to **"Acme Color Scheme"**.
+2. Move the directory inside your sublime `Packages` directory. **(Preferences > Browse packages...)**
+
+## Usage
+
+Open you preferences **(Preferences > Setting - User)** and add this lines:
+
+```json
+"color_scheme": "Packages/Acme Color Scheme/Acme.tmTheme",
+```
+
 ## Previews
 
 #### HTML Preview
