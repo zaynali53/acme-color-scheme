@@ -514,6 +514,11 @@ settings:
   settings:
     foreground: '#D1D1D1'
 
+- name: 'JSX: Embedded Section Punctuation'
+  scope: punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx
+  settings:
+    foreground: '#C40058'
+
 # ---------- Flow Highlight
 
 - name: 'Flow Polymorph'
