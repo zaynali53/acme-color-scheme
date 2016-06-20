@@ -1,6 +1,6 @@
 # Acme Color Scheme
 
-A dark color scheme by <a href="https://twitter.com/zaynali53" target="_blank">@zaynali53</a>
+A Dark Color Scheme For Web Artisans - by <a href="https://twitter.com/zaynali53" target="_blank">@zaynali53</a>
 
 ## Previews
 
@@ -26,6 +26,12 @@ A dark color scheme by <a href="https://twitter.com/zaynali53" target="_blank">@
 
 <a href="img/php-preview.png" target="_blank">
     <img src="img/php-preview.png" alt="PHP Preview" width="728">
+</a>
+
+#### Laravel Preview
+
+<a href="img/laravel-preview.png" target="_blank">
+    <img src="img/laravel-preview.png" alt="Laravel Preview" width="728">
 </a>
 
 The font used for the code is "<a href="http://www.typography.com/blog/introducing-operator" target="_blank">Operator Mono</a>"
