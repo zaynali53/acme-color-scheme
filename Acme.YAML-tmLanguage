@@ -514,6 +514,12 @@ settings:
   settings:
     foreground: '#D1D1D1'
 
+- name: 'JSX: Assignment Operator'
+  scope: keyword.operator.assignment.jsx
+  settings:
+    foreground: '#999999'
+    fontStyle: 'regular'
+
 - name: 'JSX: Embedded Section Punctuation'
   scope: punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx
   settings:

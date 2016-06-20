@@ -1035,6 +1035,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>JSX: Assignment Operator</string>
+			<key>scope</key>
+			<string>keyword.operator.assignment.jsx</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
+				<key>foreground</key>
+				<string>#999999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>JSX: Embedded Section Punctuation</string>
 			<key>scope</key>
 			<string>punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx</string>
