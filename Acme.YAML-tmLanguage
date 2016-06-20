@@ -292,6 +292,11 @@ settings:
   settings:
     foreground: '#717486'
 
+- name: 'HTML: Assignment Operator'
+  scope: punctuation.separator.key-value.html
+  settings:
+    foreground: '#999999'
+
 # ---------- XML Highlight
 
 - name: 'XML: Tag'
@@ -308,6 +313,11 @@ settings:
   scope: meta.tag.sgml.doctype.xml
   settings:
     foreground: '#1ABC9C'
+
+- name: 'HTML: Assignment Operator'
+  scope: punctuation.separator.key-value.xml
+  settings:
+    foreground: '#999999'
 
 # ---------- CSS Highlight
 

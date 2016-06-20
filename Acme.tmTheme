@@ -579,6 +579,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>HTML: Assignment Operator</string>
+			<key>scope</key>
+			<string>punctuation.separator.key-value.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#999999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>XML: Tag</string>
 			<key>scope</key>
 			<string>keyword.doctype.xml</string>
@@ -608,6 +619,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#1ABC9C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML: Assignment Operator</string>
+			<key>scope</key>
+			<string>punctuation.separator.key-value.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#999999</string>
 			</dict>
 		</dict>
 		<dict>
