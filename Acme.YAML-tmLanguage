@@ -355,7 +355,7 @@ settings:
 - name: 'CSS: Property Name'
   scope: support.type.property-name
   settings:
-    foreground: '#4D4F5B'
+    foreground: '#717486'
     fontStyle: 'regular'
 
 - name: 'CSS: Vendor Prefix'
