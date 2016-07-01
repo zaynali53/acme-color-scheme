@@ -222,7 +222,7 @@ settings:
     punctuation.definition.parameters.begin, punctuation.definition.parameters.end,
     punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end,
     meta.brace.round, punctuation.definition.arguments.begin, punctuation.definition.arguments.end,
-    punctuation.definition.arguments
+    punctuation.definition.arguments, meta.group.braces.round.function.arguments
   settings:
     foreground: '#4ECDC4'
     fontStyle: 'regular'
