@@ -189,6 +189,7 @@ settings:
   scope: variable.parameter
   settings:
     foreground: '#FFFFFF'
+    fontStyle: 'regular'
 
 - name: 'Markup Tag braces'
   scope: punctuation.definition.tag.begin, punctuation.definition.tag.end,
