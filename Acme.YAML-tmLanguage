@@ -196,21 +196,25 @@ settings:
     punctuation.definition.tag
   settings:
     foreground: '#4ECDC4'
+    fontStyle: 'regular'
 
 - name: 'Markup Tag name'
   scope: entity.name.tag
   settings:
     foreground: '#CD122C'
+    fontStyle: 'regular'
 
 - name: 'Markup Tag attribute'
   scope: entity.other.attribute-name
   settings:
     foreground: '#67809F'
+    fontStyle: 'regular'
 
 - name: 'Markup Key Value Separator'
   scope: punctuation.separator.key-value, meta.tag.preprocessor
   settings:
     foreground: '#4ECDC4'
+    fontStyle: 'regular'
 
 - name: 'Punctuation (paranthesis)'
   scope: punctuation.definition.group, punctuation.definition.group.begin, 

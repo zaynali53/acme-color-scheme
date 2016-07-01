@@ -383,6 +383,8 @@
 			<string>variable.parameter</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
@@ -394,6 +396,8 @@
 			<string>punctuation.definition.tag.begin, punctuation.definition.tag.end, punctuation.definition.tag</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#4ECDC4</string>
 			</dict>
@@ -405,6 +409,8 @@
 			<string>entity.name.tag</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#CD122C</string>
 			</dict>
@@ -416,6 +422,8 @@
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#67809F</string>
 			</dict>
@@ -427,6 +435,8 @@
 			<string>punctuation.separator.key-value, meta.tag.preprocessor</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#4ECDC4</string>
 			</dict>
