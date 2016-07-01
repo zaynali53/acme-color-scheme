@@ -257,6 +257,7 @@ settings:
     punctuation.separator.dictionary.pair
   settings:
     foreground: '#999999'
+    fontStyle: 'regular'
 
 - name: 'Function Args'
   scope: variable.parameter.function, meta.function-call.arguments

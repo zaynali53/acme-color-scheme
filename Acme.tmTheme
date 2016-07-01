@@ -500,6 +500,8 @@
 			<string>punctuation.separator.dictionary.key-value, punctuation.separator.dictionary.pair</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#999999</string>
 			</dict>
