@@ -269,6 +269,7 @@ settings:
   scope: meta.function-call
   settings:
     foreground: '#CD122C'
+    fontStyle: 'regular'
 
 # ---------- Git Highlight
 
