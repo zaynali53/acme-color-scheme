@@ -250,6 +250,7 @@ settings:
   scope: punctuation.section.embedded
   settings:
     foreground: '#E90A13'
+    fontStyle: 'regular'
 
 - name: 'Key Value Separator'
   scope: punctuation.separator.dictionary.key-value, 
