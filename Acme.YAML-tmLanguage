@@ -127,6 +127,7 @@ settings:
   scope: support.constant
   settings:
     foreground: '#E90A13'
+    fontStyle: 'regular'
 
 - name: 'Storage'
   scope: storage
