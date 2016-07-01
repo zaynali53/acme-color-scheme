@@ -68,6 +68,7 @@ settings:
   scope: constant.numeric
   settings:
     foreground: '#1ABC9C'
+    fontStyle: 'regular'
 
 - name: 'Keyword'
   scope: keyword

@@ -123,6 +123,8 @@
 			<string>constant.numeric</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#1ABC9C</string>
 			</dict>
