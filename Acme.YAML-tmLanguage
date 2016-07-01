@@ -653,6 +653,11 @@ settings:
     foreground: '#4ECDC4'
     fontStyle: 'bold'
 
+- name: 'Ruby: Embedded Source'
+  scope: source.ruby.embedded.source
+  settings:
+    foreground: '#D1D1D1'
+
 # ---------- ENV Highlight
 
 - name: 'ENV: Variable'

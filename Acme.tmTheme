@@ -1320,6 +1320,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Ruby: Embedded Source</string>
+			<key>scope</key>
+			<string>source.ruby.embedded.source</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D1D1D1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>ENV: Variable</string>
 			<key>scope</key>
 			<string>variable.other.env</string>
