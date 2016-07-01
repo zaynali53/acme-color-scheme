@@ -385,7 +385,7 @@ settings:
     fontStyle: 'bold'
 
 - name: 'CSS: Selector Punctuation'
-  scope: punctuation.definition.entity, meta.attribute-selector
+  scope: punctuation.definition.entity, meta.attribute-selector, punctuation.section.attribute.css
   settings:
     foreground: '#C40058'
 

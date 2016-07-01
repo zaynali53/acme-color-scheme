@@ -767,7 +767,7 @@
 			<key>name</key>
 			<string>CSS: Selector Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.entity, meta.attribute-selector</string>
+			<string>punctuation.definition.entity, meta.attribute-selector, punctuation.section.attribute.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
