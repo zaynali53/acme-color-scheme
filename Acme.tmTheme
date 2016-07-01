@@ -201,6 +201,8 @@
 			<string>constant.language</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#C40058</string>
 			</dict>
