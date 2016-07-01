@@ -448,6 +448,8 @@
 			<string>punctuation.definition.group, punctuation.definition.group.begin, punctuation.definition.group.end, punctuation.section.function, punctuation.definition.parameters.begin, punctuation.definition.parameters.end, punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end, meta.brace.round, punctuation.definition.arguments.begin, punctuation.definition.arguments.end, punctuation.definition.arguments</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#4ECDC4</string>
 			</dict>
@@ -459,6 +461,8 @@
 			<string>punctuation.definition.dictionary.begin, punctuation.definition.dictionary.end, punctuation.definition.dictionary, punctuation.definition.class.body.begin, punctuation.definition.class.body.end, punctuation.definition.class.body, meta.brace.curly.begin, meta.brace.curly.end, meta.brace.curly, punctuation.definition.block, punctuation.section.scope</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#4ECDC4</string>
 			</dict>
@@ -470,6 +474,8 @@
 			<string>punctuation.definition.array.begin, punctuation.definition.array.end, punctuation.definition.array, meta.group.braces.square, meta.brace.square.begin, meta.brace.square.end, meta.brace.square, punctuation.section.array.begin, punctuation.section.array.end, punctuation.section.array</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#7C7200</string>
 			</dict>

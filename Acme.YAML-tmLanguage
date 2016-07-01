@@ -225,6 +225,7 @@ settings:
     punctuation.definition.arguments
   settings:
     foreground: '#4ECDC4'
+    fontStyle: 'regular'
 
 - name: 'Punctuation {curly}'
   scope: punctuation.definition.dictionary.begin, punctuation.definition.dictionary.end,
@@ -234,6 +235,7 @@ settings:
     punctuation.definition.block, punctuation.section.scope
   settings:
     foreground: '#4ECDC4'
+    fontStyle: 'regular'
 
 - name: 'Punctuation [square]'
   scope: punctuation.definition.array.begin, punctuation.definition.array.end,
@@ -242,6 +244,7 @@ settings:
     punctuation.section.array.end, punctuation.section.array
   settings:
     foreground: '#7C7200'
+    fontStyle: 'regular'
 
 - name: 'Embedded Section Punctuation'
   scope: punctuation.section.embedded
