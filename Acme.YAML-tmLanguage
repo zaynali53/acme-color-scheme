@@ -153,11 +153,13 @@ settings:
   scope: support.class, entity.name.class, entity.name.type.class
   settings:
     foreground: '#CD122C'
+    fontStyle: 'regular'
 
 - name: 'Support Class'
   scope: support.type, support.class
   settings:
     foreground: '#CD122C'
+    fontStyle: 'regular'
 
 - name: 'Inherited Class'
   scope: entity.other.inherited-class
