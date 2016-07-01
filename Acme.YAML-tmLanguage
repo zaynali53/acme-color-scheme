@@ -658,6 +658,13 @@ settings:
   settings:
     foreground: '#D1D1D1'
 
+# ---------- Python Highlight
+
+- name: 'Python: String Placeholder'
+  scope: constant.other.placeholder.python
+  settings:
+    foreground: '#7C7200'
+
 # ---------- ENV Highlight
 
 - name: 'ENV: Variable'
