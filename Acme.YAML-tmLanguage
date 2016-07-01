@@ -111,11 +111,13 @@ settings:
   scope: variable.language
   settings:
     foreground: '#999999'
+    fontStyle: 'regular'
 
 - name: 'Other Variable'
   scope: variable.other
   settings:
     foreground: '#D1D1D1'
+    fontStyle: 'regular'
 
 - name: 'User-defined Constant'
   scope: constant.character, constant.other
