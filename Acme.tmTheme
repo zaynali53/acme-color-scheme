@@ -510,13 +510,26 @@
 			<key>name</key>
 			<string>Function Args</string>
 			<key>scope</key>
-			<string>variable.parameter.function, meta.function-call.arguments</string>
+			<string>variable.parameter.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
 				<string>#67809F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function Args</string>
+			<key>scope</key>
+			<string>meta.function-call.arguments</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>

@@ -260,10 +260,16 @@ settings:
     fontStyle: 'regular'
 
 - name: 'Function Args'
-  scope: variable.parameter.function, meta.function-call.arguments
+  scope: variable.parameter.function
   settings:
     foreground: '#67809F'
     fontStyle: 'italic'
+
+- name: 'Function Args'
+  scope: meta.function-call.arguments
+  settings:
+    foreground: '#FFFFFF'
+    fontStyle: 'regular'
 
 - name: 'Function Call'
   scope: meta.function-call
