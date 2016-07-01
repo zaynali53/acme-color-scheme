@@ -344,6 +344,8 @@
 			<string>punctuation.separator</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#D1D1D1</string>
 			</dict>

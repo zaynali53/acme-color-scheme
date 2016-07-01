@@ -171,6 +171,7 @@ settings:
   scope: punctuation.separator
   settings:
     foreground: '#D1D1D1'
+    fontStyle: 'regular'
 
 - name: 'Function'
   scope: entity.name.function, variable.function
