@@ -473,6 +473,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Function Call</string>
+			<key>scope</key>
+			<string>meta.function-call</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CD122C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>diff.header</string>
 			<key>scope</key>
 			<string>meta.diff, meta.diff.header</string>

@@ -241,6 +241,11 @@ settings:
     foreground: '#67809F'
     fontStyle: 'italic'
 
+- name: 'Function Call'
+  scope: meta.function-call
+  settings:
+    foreground: '#CD122C'
+
 # ---------- Git Highlight
 
 - name: 'diff.header'
