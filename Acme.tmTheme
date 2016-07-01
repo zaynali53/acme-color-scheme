@@ -407,7 +407,7 @@
 			<key>name</key>
 			<string>Punctuation (paranthesis)</string>
 			<key>scope</key>
-			<string>punctuation.definition.group, punctuation.definition.group.begin, punctuation.definition.group.end, punctuation.section.function, punctuation.definition.parameters.begin, punctuation.definition.parameters.end, punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end, meta.brace.round</string>
+			<string>punctuation.definition.group, punctuation.definition.group.begin, punctuation.definition.group.end, punctuation.section.function, punctuation.definition.parameters.begin, punctuation.definition.parameters.end, punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end, meta.brace.round, punctuation.definition.arguments.begin, punctuation.definition.arguments.end, punctuation.definition.arguments</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
