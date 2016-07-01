@@ -92,6 +92,7 @@ settings:
   scope: string.regexp.single-quoted, string.regexp.double-quoted
   settings:
     foreground: '#67809F'
+    fontStyle: 'regular'
 
 - name: 'Regular Expression (Keyword)'
   scope: constant.character.escape, string.regexp, 

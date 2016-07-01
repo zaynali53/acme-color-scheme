@@ -175,6 +175,8 @@
 			<string>string.regexp.single-quoted, string.regexp.double-quoted</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#67809F</string>
 			</dict>
