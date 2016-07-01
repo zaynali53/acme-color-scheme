@@ -121,6 +121,7 @@ settings:
   scope: constant.character, constant.other
   settings:
     foreground: '#E90A13'
+    fontStyle: 'regular'
 
 - name: 'Support Constant'
   scope: support.constant
