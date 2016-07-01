@@ -177,11 +177,13 @@ settings:
   scope: entity.name.function, variable.function
   settings:
     foreground: '#CD122C'
+    fontStyle: 'regular'
 
 - name: 'Library Function'
   scope: support.function
   settings:
     foreground: '#D24D57'
+    fontStyle: 'regular'
 
 - name: 'Function Parameter'
   scope: variable.parameter

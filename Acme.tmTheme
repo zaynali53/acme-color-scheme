@@ -357,6 +357,8 @@
 			<string>entity.name.function, variable.function</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#CD122C</string>
 			</dict>
@@ -368,6 +370,8 @@
 			<string>support.function</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#D24D57</string>
 			</dict>
