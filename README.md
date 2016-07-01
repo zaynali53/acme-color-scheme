@@ -63,7 +63,7 @@ There is a list of colors used in Acme. Check it before porting the color scheme
 
 ## Contributing
 
-If you'd like to add some styles please do it inside `.YAML-tmLanguage` file. Then `.tmTheme` xml can be generated with such tool as (<a href="https://github.com/SublimeText/AAAPackageDev" target="_blank">AAAPackageDev</a>) for Sublime Text.
+If you'd like to add some styles please do it inside `.YAML-tmLanguage` file. Then `.tmTheme` xml can be generated with such tool as (<a href="https://github.com/SublimeText/PackageDev" target="_blank">PackageDev</a>) for Sublime Text.
 
 ## License
 
