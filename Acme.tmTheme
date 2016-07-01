@@ -1416,6 +1416,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Python: Function Call Variable Argument</string>
+			<key>scope</key>
+			<string>variable.parameter.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#67809F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>ENV: Variable</string>
 			<key>scope</key>
 			<string>variable.other.env</string>

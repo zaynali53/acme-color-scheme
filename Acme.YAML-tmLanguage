@@ -702,6 +702,11 @@ settings:
   settings:
     foreground: '#7C7200'
 
+- name: 'Python: Function Call Variable Argument'
+  scope: variable.parameter.python
+  settings:
+    foreground: '#67809F'
+
 # ---------- ENV Highlight
 
 - name: 'ENV: Variable'
