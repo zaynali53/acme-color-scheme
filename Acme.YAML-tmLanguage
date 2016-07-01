@@ -236,7 +236,7 @@ settings:
     foreground: '#999999'
 
 - name: 'Function Args'
-  scope: variable.parameter.function
+  scope: variable.parameter.function, meta.function-call.arguments
   settings:
     foreground: '#67809F'
     fontStyle: 'italic'

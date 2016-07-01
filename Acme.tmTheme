@@ -462,7 +462,7 @@
 			<key>name</key>
 			<string>Function Args</string>
 			<key>scope</key>
-			<string>variable.parameter.function</string>
+			<string>variable.parameter.function, meta.function-call.arguments</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
