@@ -1035,13 +1035,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSX: Tag Brackets</string>
+			<string>JSX: Embedded Section Punctuation</string>
 			<key>scope</key>
 			<string>punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4ECDC4</string>
+				<string>#7C7200</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1066,17 +1066,6 @@
 				<string>regular</string>
 				<key>foreground</key>
 				<string>#999999</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JSX: Embedded Section Punctuation</string>
-			<key>scope</key>
-			<string>punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#7C7200</string>
 			</dict>
 		</dict>
 		<dict>

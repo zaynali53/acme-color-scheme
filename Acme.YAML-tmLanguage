@@ -514,10 +514,10 @@ settings:
 
 # ---------- JSX Highlight
 
-- name: 'JSX: Tag Brackets'
+- name: 'JSX: Embedded Section Punctuation'
   scope: punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx
   settings:
-    foreground: '#4ECDC4'
+    foreground: '#7C7200'
 
 - name: 'JSX: Tag Inner Content'
   scope: meta.jsx.js, meta.jsx.children.js, tag.open.js, tag.close.js
@@ -529,11 +529,6 @@ settings:
   settings:
     foreground: '#999999'
     fontStyle: 'regular'
-
-- name: 'JSX: Embedded Section Punctuation'
-  scope: punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx
-  settings:
-    foreground: '#7C7200'
 
 # ---------- Flow Highlight
 
