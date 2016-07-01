@@ -48,12 +48,14 @@ settings:
   scope: string
   settings:
     foreground: '#85604E'
+    fontStyle: 'regular'
 
 - name: 'String Punctuation'
   scope: punctuation.definition.string, keyword.other.template.begin.js, 
     keyword.other.template.end.js
   settings:
     foreground: '#85604E80'
+    fontStyle: 'regular'
 
 - name: 'String Substitution'
   scope: keyword.other.substitution.begin, keyword.other.substitution.end,

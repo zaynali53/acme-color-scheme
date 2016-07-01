@@ -84,6 +84,8 @@
 			<string>string</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#85604E</string>
 			</dict>
@@ -95,6 +97,8 @@
 			<string>punctuation.definition.string, keyword.other.template.begin.js, keyword.other.template.end.js</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
 				<key>foreground</key>
 				<string>#85604E80</string>
 			</dict>
