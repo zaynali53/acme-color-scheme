@@ -438,6 +438,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Embedded Section Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E90A13</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Key Value Separator</string>
 			<key>scope</key>
 			<string>punctuation.separator.dictionary.key-value, punctuation.separator.dictionary.pair</string>

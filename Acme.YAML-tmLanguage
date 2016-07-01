@@ -223,6 +223,11 @@ settings:
   settings:
     foreground: '#7C7200'
 
+- name: 'Embedded Section Punctuation'
+  scope: punctuation.section.embedded
+  settings:
+    foreground: '#E90A13'
+
 - name: 'Key Value Separator'
   scope: punctuation.separator.dictionary.key-value, 
     punctuation.separator.dictionary.pair
