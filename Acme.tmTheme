@@ -1405,17 +1405,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Python: String Placeholder</string>
-			<key>scope</key>
-			<string>constant.other.placeholder.python</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#7C7200</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Python: Function Call Variable Argument</string>
 			<key>scope</key>
 			<string>variable.parameter.python</string>

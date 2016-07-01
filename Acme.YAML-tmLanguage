@@ -697,11 +697,6 @@ settings:
 
 # ---------- Python Highlight
 
-- name: 'Python: String Placeholder'
-  scope: constant.other.placeholder.python
-  settings:
-    foreground: '#7C7200'
-
 - name: 'Python: Function Call Variable Argument'
   scope: variable.parameter.python
   settings:
