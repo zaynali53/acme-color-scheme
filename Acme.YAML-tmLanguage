@@ -33,8 +33,13 @@ settings:
 
 # ---------- General Highlight
 
+- name: 'Comment Punctuation'
+  scope: punctuation.definition.comment
+  settings:
+    fontStyle: 'regular'
+
 - name: 'Comment'
-  scope: comment, punctuation.definition.comment
+  scope: comment
   settings:
     foreground: '#444444'
     fontStyle: 'italic'
@@ -43,6 +48,12 @@ settings:
   scope: keyword.other.phpdoc
   settings:
     foreground: '#999999'
+
+- name: 'Blade: Invalid Comment'
+  scope: invalid.illegal.bad-comments-or-CDATA.html
+  settings:
+    foreground: '#1A1B20'
+    background: '#CD122C'
 
 - name: 'String'
   scope: string
@@ -654,6 +665,20 @@ settings:
   scope: punctuation.separator.namespace.php
   settings:
     foreground: '#999999'
+
+# ---------- PHP Blade Highlight
+
+- name: 'Blade: Embedded Punctuation'
+  scope: punctuation.section.embedded.begin.blade,
+    punctuation.section.embedded.end.blade
+  settings:
+    foreground: '#E90A13'
+
+- name: 'Blade: Ignore Embedded Punctuation'
+  scope: punctuation.section.embedded.ignore.begin.blade,
+    punctuation.section.embedded.ignore.end.blade
+  settings:
+    foreground: '#C40058'
 
 # ---------- Ruby Highlight
 

@@ -55,9 +55,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Comment Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.comment</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment, punctuation.definition.comment</string>
+			<string>comment</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -75,6 +86,19 @@
 			<dict>
 				<key>foreground</key>
 				<string>#999999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Blade: Invalid Comment</string>
+			<key>scope</key>
+			<string>invalid.illegal.bad-comments-or-CDATA.html</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#CD122C</string>
+				<key>foreground</key>
+				<string>#1A1B20</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1318,6 +1342,28 @@
 			<dict>
 				<key>foreground</key>
 				<string>#999999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Blade: Embedded Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.begin.blade, punctuation.section.embedded.end.blade</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E90A13</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Blade: Ignore Embedded Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.ignore.begin.blade, punctuation.section.embedded.ignore.end.blade</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C40058</string>
 			</dict>
 		</dict>
 		<dict>
