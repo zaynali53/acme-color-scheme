@@ -727,6 +727,11 @@ settings:
   settings:
     foreground: '#67809F'
 
+- name: 'Python: Function Begin Punctuation'
+  scope: punctuation.section.function.begin.python
+  settings:
+    foreground: '#FFFFFF'
+
 # ---------- ENV Highlight
 
 - name: 'ENV: Variable'

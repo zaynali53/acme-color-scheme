@@ -1462,6 +1462,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Python: Function Begin Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.section.function.begin.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>ENV: Variable</string>
 			<key>scope</key>
 			<string>variable.other.env</string>
