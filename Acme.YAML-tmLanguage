@@ -56,7 +56,7 @@ settings:
     background: '#CD122C'
 
 - name: 'String'
-  scope: string
+  scope: string, meta.string-contents.quoted.single, meta.string-contents.quoted.double
   settings:
     foreground: '#85604E'
     fontStyle: 'regular'

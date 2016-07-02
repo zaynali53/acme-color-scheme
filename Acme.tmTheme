@@ -105,7 +105,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string</string>
+			<string>string, meta.string-contents.quoted.single, meta.string-contents.quoted.double</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
