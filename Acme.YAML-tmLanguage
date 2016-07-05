@@ -176,7 +176,7 @@ settings:
   scope: entity.other.inherited-class
   settings:
     foreground: '#1ABC9C'
-    fontStyle: 'italic'
+    fontStyle: 'italic bold'
 
 - name: 'Separator'
   scope: punctuation.separator
