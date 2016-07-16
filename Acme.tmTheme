@@ -1291,6 +1291,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Comma Fix</string>
+			<key>scope</key>
+			<string>meta.group.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>regular</string>
+				<key>foreground</key>
+				<string>#D1D1D1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP: Function Punctuation (Return Type)</string>
 			<key>scope</key>
 			<string>meta.function.return-type.php</string>

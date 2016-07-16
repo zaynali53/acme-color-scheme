@@ -640,6 +640,14 @@ settings:
   settings:
     foreground: '#4D4F5B'
 
+# Fix for comma highlight in array during function call
+# --- $example->someFunction(['hello', 'world']);
+- name: 'Comma Fix'
+  scope: meta.group.php
+  settings:
+    foreground: '#D1D1D1'
+    fontStyle: 'regular'
+
 - name: 'PHP: Function Punctuation (Return Type)'
   scope: meta.function.return-type.php
   settings:
