@@ -50,6 +50,12 @@ settings:
     foreground: '#1A1B20'
     background: '#CD122C'
 
+- name: 'Statement Terminator'
+  scope: punctuation.terminator.expression
+  settings:
+    foreground: '#D1D1D1'
+    fontStyle: 'regular'
+
 - name: 'String'
   scope: string, meta.string-contents.quoted.single, meta.string-contents.quoted.double
   settings:
