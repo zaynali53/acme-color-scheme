@@ -44,12 +44,7 @@ settings:
     foreground: '#444444'
     fontStyle: 'italic'
 
-- name: 'Comment DOC keyword'
-  scope: keyword.other.phpdoc
-  settings:
-    foreground: '#999999'
-
-- name: 'Blade: Invalid Comment'
+- name: 'Invalid Comment'
   scope: invalid.illegal.bad-comments-or-CDATA.html
   settings:
     foreground: '#1A1B20'
@@ -609,6 +604,11 @@ settings:
   settings:
     foreground: '#E90A13'
 
+- name: 'PHP: Comment DOC keyword'
+  scope: keyword.other.phpdoc
+  settings:
+    foreground: '#999999'
+
 - name: 'PHP: Variable Punctuation'
   scope: punctuation.definition.variable.php
   settings:
@@ -733,11 +733,6 @@ settings:
     foreground: '#FFFFFF'
 
 # ---------- ENV Highlight
-
-- name: 'ENV: Variable'
-  scope: variable.other.env
-  settings:
-    foreground: '#D24D57'
 
 - name: 'ENV: Template Punctuation'
   scope: keyword.other.template.begin.env, keyword.other.template.end.env,

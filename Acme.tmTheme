@@ -79,18 +79,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Comment DOC keyword</string>
-			<key>scope</key>
-			<string>keyword.other.phpdoc</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#999999</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Blade: Invalid Comment</string>
+			<string>Invalid Comment</string>
 			<key>scope</key>
 			<string>invalid.illegal.bad-comments-or-CDATA.html</string>
 			<key>settings</key>
@@ -1223,6 +1212,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Comment DOC keyword</string>
+			<key>scope</key>
+			<string>keyword.other.phpdoc</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#999999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP: Variable Punctuation</string>
 			<key>scope</key>
 			<string>punctuation.definition.variable.php</string>
@@ -1469,17 +1469,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>ENV: Variable</string>
-			<key>scope</key>
-			<string>variable.other.env</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D24D57</string>
 			</dict>
 		</dict>
 		<dict>
