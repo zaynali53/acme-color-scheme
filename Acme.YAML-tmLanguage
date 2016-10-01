@@ -234,7 +234,8 @@ settings:
     punctuation.definition.parameters.begin, punctuation.definition.parameters.end,
     punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end,
     meta.brace.round, punctuation.definition.arguments.begin, punctuation.definition.arguments.end,
-    punctuation.definition.arguments, meta.group.braces.round.function.arguments
+    punctuation.definition.arguments, meta.group.braces.round.function.arguments,
+    punctuation.section.group.begin, punctuation.section.group.end
   settings:
     foreground: '#4ECDC4'
     fontStyle: 'regular'
@@ -244,7 +245,8 @@ settings:
     punctuation.definition.dictionary, punctuation.definition.class.body.begin,
     punctuation.definition.class.body.end, punctuation.definition.class.body,
     meta.brace.curly.begin, meta.brace.curly.end, meta.brace.curly,
-    punctuation.definition.block, punctuation.section.scope
+    punctuation.definition.block, punctuation.section.scope,
+    punctuation.section.block.begin, punctuation.section.block.end
   settings:
     foreground: '#4ECDC4'
     fontStyle: 'regular'
