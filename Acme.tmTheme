@@ -484,7 +484,7 @@
 			<key>name</key>
 			<string>Punctuation {curly}</string>
 			<key>scope</key>
-			<string>punctuation.definition.dictionary.begin, punctuation.definition.dictionary.end, punctuation.definition.dictionary, punctuation.definition.class.body.begin, punctuation.definition.class.body.end, punctuation.definition.class.body, meta.brace.curly.begin, meta.brace.curly.end, meta.brace.curly, punctuation.definition.block, punctuation.section.scope, punctuation.section.block.begin, punctuation.section.block.end</string>
+			<string>punctuation.definition.dictionary.begin, punctuation.definition.dictionary.end, punctuation.definition.dictionary, punctuation.definition.class.body.begin, punctuation.definition.class.body.end, punctuation.definition.class.body, meta.brace.curly.begin, meta.brace.curly.end, meta.brace.curly, punctuation.definition.block, punctuation.section.scope, punctuation.section.block, punctuation.section.block.begin, punctuation.section.block.end</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>

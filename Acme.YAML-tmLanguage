@@ -245,7 +245,7 @@ settings:
     punctuation.definition.dictionary, punctuation.definition.class.body.begin,
     punctuation.definition.class.body.end, punctuation.definition.class.body,
     meta.brace.curly.begin, meta.brace.curly.end, meta.brace.curly,
-    punctuation.definition.block, punctuation.section.scope,
+    punctuation.definition.block, punctuation.section.scope, punctuation.section.block,
     punctuation.section.block.begin, punctuation.section.block.end
   settings:
     foreground: '#4ECDC4'
