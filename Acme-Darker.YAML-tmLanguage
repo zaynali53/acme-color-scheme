@@ -1,0 +1,758 @@
+# [PackageDev] target_format: plist, ext: tmTheme
+---
+name: Acme
+uuid: 049a5c8d-3acb-414b-9b78-33321addb6d3
+author: Zayn Ali (https://twitter.com/zaynali53)
+
+colorSpaceName: 'sRGB'
+semanticClass: 'theme.dark.acme'
+
+settings:
+
+# ---------- Editor Highlight
+
+- settings:
+    background: '#212121'
+    caret: '#67809F'
+    foreground: '#D1D1D1'
+    invisibles: '#3B3A32'
+    lineHighlight: '#00000030'
+    selection: '#61616140'
+    findHighlight: '#61616140'
+    findHighlightForeground: '#ffffff'
+    selectionBorder: '#61616140'
+    guide: '#42424260'
+    activeGuide: '#42424260'
+    gutterForeground: '#42424290'
+    shadow: '#00000010'
+    bracketsForeground: '#F8F8F2A5'
+    bracketsOptions: 'underline'
+    bracketContentsForeground: '#F8F8F2A5'
+    bracketContentsOptions: 'underline'
+    tagsOptions: 'stippled_underline'
+
+# ---------- General Highlight
+
+- name: 'Comment Punctuation'
+  scope: punctuation.definition.comment
+  settings:
+    fontStyle: 'regular'
+
+- name: 'Comment'
+  scope: comment
+  settings:
+    foreground: '#444444'
+    fontStyle: 'italic'
+
+- name: 'Invalid Comment'
+  scope: invalid.illegal.bad-comments-or-CDATA.html
+  settings:
+    foreground: '#1A1B20'
+    background: '#CD122C'
+
+- name: 'Statement Terminator'
+  scope: punctuation.terminator.expression
+  settings:
+    foreground: '#D1D1D1'
+    fontStyle: 'regular'
+
+- name: 'String'
+  scope: string, meta.string-contents.quoted.single, meta.string-contents.quoted.double
+  settings:
+    foreground: '#85604E'
+    fontStyle: 'regular'
+
+- name: 'String Punctuation'
+  scope: punctuation.definition.string, keyword.other.template.begin.js, 
+    keyword.other.template.end.js
+  settings:
+    foreground: '#85604E80'
+    fontStyle: 'regular'
+
+- name: 'String Substitution'
+  scope: keyword.other.substitution.begin, keyword.other.substitution.end,
+    keyword.other.substitution, punctuation.definition.expression
+  settings:
+    foreground: '#7C7200'
+    fontStyle: 'regular'
+
+- name: 'Number'
+  scope: constant.numeric
+  settings:
+    foreground: '#1ABC9C'
+    fontStyle: 'regular'
+
+- name: 'Keyword'
+  scope: keyword
+  settings:
+    foreground: '#4D4F5B'
+    fontStyle: 'bold'
+
+- name: 'Operator'
+  scope: keyword.operator
+  settings:
+    foreground: '#4ECDC4'
+    fontStyle: 'bold'
+
+- name: 'Logical Operator'
+  scope: keyword.operator.logical
+  settings:
+    foreground: '#C40058'
+    fontStyle: 'bold'
+
+- name: 'Regular Expression'
+  scope: string.regexp.single-quoted, string.regexp.double-quoted
+  settings:
+    foreground: '#67809F'
+    fontStyle: 'regular'
+
+- name: 'Regular Expression (Keyword)'
+  scope: constant.character.escape, string.regexp, 
+    keyword.operator.regexp
+  settings:
+    foreground: '#7C7200'
+    fontStyle: 'regular'
+
+- name: 'Built-in Constant'
+  scope: constant.language
+  settings:
+    foreground: '#C40058'
+    fontStyle: 'regular'
+
+- name: 'Language Variable'
+  scope: variable.language
+  settings:
+    foreground: '#999999'
+    fontStyle: 'regular'
+
+- name: 'Other Variable'
+  scope: variable.other
+  settings:
+    foreground: '#D1D1D1'
+    fontStyle: 'regular'
+
+- name: 'User-defined Constant'
+  scope: constant.character, constant.other
+  settings:
+    foreground: '#E90A13'
+    fontStyle: 'regular'
+
+- name: 'Support Constant'
+  scope: support.constant
+  settings:
+    foreground: '#E90A13'
+    fontStyle: 'regular'
+
+- name: 'Storage'
+  scope: storage
+  settings:
+    foreground: '#4D4F5B'
+    fontStyle: 'bold'
+
+- name: 'Storage Type'
+  scope: storage.type
+  settings:
+    foreground: '#717486'
+    fontStyle: 'bold'
+
+- name: 'Storage Type Function'
+  scope: storage.type.function
+  settings:
+    foreground: '#4D4F5B'
+    fontStyle: 'italic'
+
+- name: 'Class'
+  scope: support.class, entity.name.class, entity.name.type.class
+  settings:
+    foreground: '#CD122C'
+    fontStyle: 'regular'
+
+- name: 'Support Class'
+  scope: support.type, support.class
+  settings:
+    foreground: '#CD122C'
+    fontStyle: 'regular'
+
+- name: 'Inherited Class'
+  scope: entity.other.inherited-class
+  settings:
+    foreground: '#1ABC9C'
+    fontStyle: 'italic bold'
+
+- name: 'Separator'
+  scope: punctuation.separator
+  settings:
+    foreground: '#D1D1D1'
+    fontStyle: 'regular'
+
+- name: 'Function'
+  scope: entity.name.function, variable.function
+  settings:
+    foreground: '#CD122C'
+    fontStyle: 'regular'
+
+- name: 'Library Function'
+  scope: support.function
+  settings:
+    foreground: '#D24D57'
+    fontStyle: 'regular'
+
+- name: 'Function Parameter'
+  scope: variable.parameter
+  settings:
+    foreground: '#FFFFFF'
+    fontStyle: 'italic'
+
+- name: 'Markup Tag braces'
+  scope: punctuation.definition.tag.begin, punctuation.definition.tag.end,
+    punctuation.definition.tag
+  settings:
+    foreground: '#4ECDC4'
+    fontStyle: 'regular'
+
+- name: 'Markup Tag name'
+  scope: entity.name.tag
+  settings:
+    foreground: '#CD122C'
+    fontStyle: 'regular'
+
+- name: 'Markup Tag attribute'
+  scope: entity.other.attribute-name
+  settings:
+    foreground: '#67809F'
+    fontStyle: 'regular'
+
+- name: 'Markup Key Value Separator'
+  scope: punctuation.separator.key-value, meta.tag.preprocessor
+  settings:
+    foreground: '#4ECDC4'
+    fontStyle: 'regular'
+
+- name: 'Punctuation (paranthesis)'
+  scope: punctuation.definition.group, punctuation.definition.group.begin, 
+    punctuation.definition.group.end, punctuation.section.function,
+    punctuation.definition.parameters.begin, punctuation.definition.parameters.end,
+    punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end,
+    meta.brace.round, punctuation.definition.arguments.begin, punctuation.definition.arguments.end,
+    punctuation.definition.arguments, meta.group.braces.round.function.arguments,
+    punctuation.section.group.begin, punctuation.section.group.end
+  settings:
+    foreground: '#4ECDC4'
+    fontStyle: 'regular'
+
+- name: 'Punctuation {curly}'
+  scope: punctuation.definition.dictionary.begin, punctuation.definition.dictionary.end,
+    punctuation.definition.dictionary, punctuation.definition.class.body.begin,
+    punctuation.definition.class.body.end, punctuation.definition.class.body,
+    meta.brace.curly.begin, meta.brace.curly.end, meta.brace.curly,
+    punctuation.definition.block, punctuation.section.scope, punctuation.section.block,
+    punctuation.section.block.begin, punctuation.section.block.end
+  settings:
+    foreground: '#4ECDC4'
+    fontStyle: 'regular'
+
+- name: 'Punctuation [square]'
+  scope: punctuation.definition.array.begin, punctuation.definition.array.end,
+    punctuation.definition.array, meta.group.braces.square, meta.brace.square.begin,
+    meta.brace.square.end, meta.brace.square, punctuation.section.array.begin,
+    punctuation.section.array.end, punctuation.section.array
+  settings:
+    foreground: '#7C7200'
+    fontStyle: 'regular'
+
+- name: 'Embedded Section Punctuation'
+  scope: punctuation.section.embedded
+  settings:
+    foreground: '#E90A13'
+    fontStyle: 'regular'
+
+- name: 'Key Value Separator'
+  scope: punctuation.separator.dictionary.key-value, 
+    punctuation.separator.dictionary.pair
+  settings:
+    foreground: '#999999'
+    fontStyle: 'regular'
+
+- name: 'Function Args'
+  scope: variable.parameter.function
+  settings:
+    foreground: '#67809F'
+    fontStyle: 'italic'
+
+- name: 'Function Args'
+  scope: meta.function-call.arguments
+  settings:
+    foreground: '#FFFFFF'
+    fontStyle: 'regular'
+
+- name: 'Function Call'
+  scope: meta.function-call
+  settings:
+    foreground: '#CD122C'
+    fontStyle: 'regular'
+
+# ---------- Git Highlight
+
+- name: 'diff.header'
+  scope: meta.diff, meta.diff.header
+  settings:
+    foreground: '#75715E'
+
+- name: 'diff.deleted'
+  scope: markup.deleted
+  settings:
+    foreground: '#00A8C6'
+
+- name: 'diff.inserted'
+  scope: markup.inserted
+  settings:
+    foreground: '#A6E22E'
+
+- name: 'diff.changed'
+  scope: markup.changed
+  settings:
+    foreground: '#E6DB74'
+
+- scope: constant.numeric.line-number.find-in-files - match
+  settings:
+    foreground: '#8FBE00A0'
+
+- scope: entity.name.filename.find-in-files
+  settings:
+    foreground: '#E6DB74'
+
+- name: 'SublimeLinter Warning'
+  scope: sublimelinter.mark.warning
+  settings:
+    foreground: '#DDB700'
+
+- name: 'SublimeLinter Error'
+  scope: sublimelinter.mark.error
+  settings:
+    foreground: '#D02000'
+
+- name: 'SublimeLinter Gutter Mark'
+  scope: sublimelinter.gutter-mark
+  settings:
+    foreground: '#FFFFFF'
+
+# ---------- HTML Highlight
+
+- name: 'HTML: DOCTYPE'
+  scope: meta.tag.sgml.doctype.html
+  settings:
+    foreground: '#4D4F5B'
+
+- name: 'HTML: Inline'
+  scope: constant.other.inline-data.html
+  settings:
+    foreground: '#717486'
+
+- name: 'HTML: Assignment Operator'
+  scope: punctuation.separator.key-value.html
+  settings:
+    foreground: '#999999'
+
+# ---------- XML Highlight
+
+- name: 'XML: Tag'
+  scope: keyword.doctype.xml
+  settings:
+    foreground: '#CD122C'
+
+- name: 'XML: Document Root'
+  scope: variable.documentroot.xml
+  settings:
+    foreground: '#4D4F5B'
+
+- name: 'XML: SGML Doctype'
+  scope: meta.tag.sgml.doctype.xml
+  settings:
+    foreground: '#1ABC9C'
+
+- name: 'HTML: Assignment Operator'
+  scope: punctuation.separator.key-value.xml
+  settings:
+    foreground: '#999999'
+
+# ---------- CSS Highlight
+
+- name: 'CSS: ID Selector'
+  scope: entity.other.attribute-name.id
+  settings:
+    foreground: '#1ABC9C'
+
+- name: 'CSS: Class Selector'
+  scope: entity.other.attribute-name.class
+  settings:
+    foreground: '#D24D57'
+
+- name: 'CSS: Selector Attribute Name'
+  scope: entity.other.attribute-name.attribute
+  settings:
+    foreground: '#67809F'
+
+- name: 'CSS: Selector Attribute Separator'
+  scope: punctuation.separator.operator, keyword.operator.attribute-selector
+  settings:
+    foreground: '#4ECDC4'
+    fontStyle: 'bold'
+
+- name: 'CSS: Selector Punctuation'
+  scope: punctuation.definition.entity, meta.attribute-selector, punctuation.section.attribute.css
+  settings:
+    foreground: '#C40058'
+
+- name: 'CSS: Property List Punctuation'
+  scope: punctuation.section.property-list
+  settings:
+    foreground: '#4ECDC4'
+
+- name: 'CSS: Property Name'
+  scope: support.type.property-name
+  settings:
+    foreground: '#717486'
+    fontStyle: 'regular'
+
+- name: 'CSS: Vendor Prefix'
+  scope: support.type.vendor-prefix, meta.property-name
+  settings:
+    foreground: '#D1D1D1'
+    fontStyle: 'bold'
+
+- name: 'CSS: Property Value Constant'
+  scope: support.constant.property-value, support.constant.color.w3c-special-color-keyword
+  settings:
+    foreground: '#7C7200'
+
+- name: 'CSS: Property Value Numeric'
+  scope: constant.numeric
+  settings:
+    foreground: '#1ABC9C'
+
+- name: 'CSS: Key Value (Separator and Terminator)'
+  scope: punctuation.separator.key-value, punctuation.terminator.rule
+  settings:
+    foreground: '#999999'
+
+- name: 'CSS: Value Unit'
+  scope: keyword.other.unit
+  settings:
+    foreground: '#67809F'
+
+- name: 'CSS: (!important)'
+  scope: keyword.other.important
+  settings:
+    foreground: '#CD122C'
+
+- name: 'CSS: Pseudo Class'
+  scope: entity.other.attribute-name.pseudo-class
+  settings:
+    foreground: '#4ECDC4'
+
+- name: 'CSS: Pseudo Element'
+  scope: entity.other.attribute-name.pseudo-element
+  settings:
+    foreground: '#67809F'
+
+- name: 'CSS: RGB values'
+  scope: constant.other.color.rgb-value
+  settings:
+    foreground: '#1ABC9C'
+
+- name: 'CSS: Standard Colors'
+  scope: support.constant.color.w3c-standard-color-name, support.constant.color
+  settings:
+    foreground: '#CCBB00'
+
+- name: 'CSS: URL'
+  scope: variable.parameter.url
+  settings:
+    foreground: '#999999'
+    fontStyle: 'italic'
+
+# ---------- SCSS Highlight
+
+- name: 'SCSS: Variable'
+  scope: variable.scss
+  settings:
+    foreground: '#D1D1D1'
+
+- name: 'SCSS: Function'
+  scope: support.function.misc.scss
+  settings:
+    foreground: '#CD122C'
+
+- name: 'SCSS: Reference Variable'
+  scope: entity.name.tag.reference.scss
+  settings:
+    foreground: '#CD122C'
+    fontStyle: 'bold'
+
+- name: 'SCSS: Reference Variable'
+  scope: meta.property-list.scss
+  settings:
+    foreground: '#4ECDC4'
+
+- name: 'SCSS: Import URL'
+  scope: meta.at-rule.import.scss
+  settings:
+    foreground: '#85604E'
+
+# ---------- JSON Highlight
+
+- name: 'JSON: String'
+  scope: string.quoted.double.json
+  settings:
+    foreground: '#85604E'
+
+# ---------- JS Highlight
+
+- name: 'ReadWrite Variable'
+  scope: variable.other.readwrite.js
+  settings:
+    foreground: '#FFFFFF'
+
+- name: 'Array Separator'
+  scope: meta.group.braces.square.js
+  settings:
+    foreground: '#D1D1D1'
+
+- name: 'Generator Punctuation'
+  scope: keyword.generator.asterisk.js
+  settings:
+    foreground: '#C40058'
+
+- name: 'JS: Function Arrow'
+  scope: storage.type.function.arrow.js
+  settings:
+    foreground: '#C40058'
+    fontStyle: 'bold'
+
+- name: 'JS: this Keyword'
+  scope: variable.language.this.js
+  settings:
+    foreground: '#F62459'
+    fontStyle: 'bold italic'
+
+- name: 'JS: Module'
+  scope: keyword.operator.module.js
+  settings:
+    foreground: '#4D4F5B'
+
+- name: 'JS: Spread'
+  scope: keyword.operator.spread.js
+  settings:
+    foreground: '#C40058'
+
+- name: 'JS: Object Super'
+  scope: variable.language.super.js
+  settings:
+    foreground: '#C40058'
+
+- name: 'JS: New Keyword'
+  scope: keyword.operator.new.js
+  settings:
+    foreground: '#717486'
+
+- name: 'JS: DOM Type'
+  scope: support.type.object.dom.js
+  settings:
+    fontStyle: bold
+    foreground: '#717486'
+
+- name: 'JS: Object'
+  scope: meta.instance.constructor, entity.name.type.new.js, 
+    variable.other.constant.js, support.class.builtin.js, 
+    variable.other.class.js
+  settings:
+    foreground: '#CD122C'
+
+# ---------- JSX Highlight
+
+- name: 'JSX: Embedded Section Punctuation'
+  scope: punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx
+  settings:
+    foreground: '#7C7200'
+
+- name: 'JSX: Tag Inner Content'
+  scope: meta.jsx.js, meta.jsx.children.js, tag.open.js, tag.close.js
+  settings:
+    foreground: '#D1D1D1'
+
+- name: 'JSX: Assignment Operator'
+  scope: keyword.operator.assignment.jsx
+  settings:
+    foreground: '#999999'
+    fontStyle: 'regular'
+
+# ---------- Flow Highlight
+
+- name: 'Flow Polymorph'
+  scope: meta.flowtype.polymorph
+  settings:
+    foreground: '#D1D1D1'
+
+- name: 'Flow Section Punctuation'
+  scope: punctuation.section.flowtype.begin, punctuation.section.flowtype.end,
+    punctuation.section.flowtype
+  settings:
+    foreground: '#999999'
+
+- name: 'Flow Type'
+  scope: variable.other.flowtype
+  settings:
+    foreground: '#7C7200'
+
+# ---------- PHP Highlight
+
+- name: 'PHP: Embedded'
+  scope: punctuation.section.embedded.begin.php, 
+    punctuation.section.embedded.end.php
+  settings:
+    foreground: '#E90A13'
+
+- name: 'PHP: Comment DOC keyword'
+  scope: keyword.other.phpdoc
+  settings:
+    foreground: '#999999'
+
+- name: 'PHP: Variable Punctuation'
+  scope: punctuation.definition.variable.php
+  settings:
+    foreground: '#999999'
+
+- name: 'PHP: Magic Method'
+  scope: support.function.magic.php
+  settings:
+    foreground: '#67809F'
+
+- name: 'PHP: class Keyword'
+  scope: constant.class.php
+  settings:
+    foreground: '#67809F'
+
+- name: 'PHP: Doc block keyword'
+  scope: keyword.other.phpdoc.php
+  settings:
+    foreground: '#999999'
+
+- name: 'PHP: Array Punctuation (key-value)'
+  scope: keyword.operator.key.php
+  settings:
+    foreground: '#4D4F5B'
+
+# Fix for comma highlight in array during function call
+# --- $example->someFunction(['hello', 'world']);
+- name: 'Comma Fix'
+  scope: meta.group.php
+  settings:
+    foreground: '#D1D1D1'
+    fontStyle: 'regular'
+
+- name: 'PHP: Function Punctuation (Return Type)'
+  scope: meta.function.return-type.php
+  settings:
+    foreground: '#C40058'
+
+- name: 'PHP Namespace Keyword'
+  scope: keyword.other.namespace.php, keyword.other.use-as.php, 
+    keyword.other.use.php
+  settings:
+    fontStyle: bold
+    foreground: '#4D4F5B'
+
+- name: 'PHP Namespace (breadcrumbs)'
+  scope: support.other.namespace.php
+  settings:
+    foreground: '#ffffff'
+
+- name: 'PHP Namespace (Name)'
+  scope: entity.name.namespace.php
+  settings:
+    foreground: '#67809F'
+
+- name: 'PHP Namespace (Use Class)'
+  scope: meta.use.php
+  settings:
+    foreground: '#CD122C'
+
+- name: 'PHP Namespace (Separator)'
+  scope: punctuation.separator.namespace.php
+  settings:
+    foreground: '#999999'
+
+# ---------- PHP Blade Highlight
+
+- name: 'Blade: Embedded Punctuation'
+  scope: punctuation.section.embedded.begin.blade,
+    punctuation.section.embedded.end.blade
+  settings:
+    foreground: '#E90A13'
+
+- name: 'Blade: Ignore Embedded Punctuation'
+  scope: punctuation.section.embedded.ignore.begin.blade,
+    punctuation.section.embedded.ignore.end.blade
+  settings:
+    foreground: '#C40058'
+
+# ---------- Ruby Highlight
+
+- name: 'Ruby: Instance Variable'
+  scope: variable.other.readwrite.instance.ruby
+  settings:
+    foreground: '#FFFFFF'
+
+- name: 'Ruby: Special Method'
+  scope: keyword.other.special-method.ruby
+  settings:
+    foreground: '#717486'
+
+- name: 'Ruby: Special Method'
+  scope: constant.other.symbol.ruby
+  settings:
+    foreground: '#1ABC9C'
+
+- name: 'Ruby: Inheritence Separator'
+  scope: punctuation.separator.inheritance.ruby
+  settings:
+    foreground: '#717486'
+    fontStyle: 'bold'
+
+- name: 'Ruby: Pseudo Method'
+  scope: keyword.control.pseudo-method.ruby
+  settings:
+    foreground: '#D24D57'
+    fontStyle: 'regular'
+
+- name: 'Ruby: Method Separator'
+  scope: punctuation.separator.method.ruby
+  settings:
+    foreground: '#4ECDC4'
+    fontStyle: 'bold'
+
+- name: 'Ruby: Embedded Source'
+  scope: source.ruby.embedded.source
+  settings:
+    foreground: '#D1D1D1'
+
+# ---------- Python Highlight
+
+- name: 'Python: Function Call Variable Argument'
+  scope: variable.parameter.python
+  settings:
+    foreground: '#67809F'
+
+- name: 'Python: Function Begin Punctuation'
+  scope: punctuation.section.function.begin.python
+  settings:
+    foreground: '#FFFFFF'
+
+# ---------- ENV Highlight
+
+- name: 'ENV: Template Punctuation'
+  scope: keyword.other.template.begin.env, keyword.other.template.end.env,
+    keyword.other.template
+  settings:
+    foreground: '#7C7200'
+    fontStyle: 'regular'
