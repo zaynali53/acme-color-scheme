@@ -94,7 +94,7 @@
 			<key>name</key>
 			<string>Statement Terminator</string>
 			<key>scope</key>
-			<string>punctuation.terminator.expression</string>
+			<string>punctuation.terminator.expression, punctuation.terminator.statement</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -497,7 +497,7 @@
 			<key>name</key>
 			<string>Punctuation [square]</string>
 			<key>scope</key>
-			<string>punctuation.definition.array.begin, punctuation.definition.array.end, punctuation.definition.array, meta.group.braces.square, meta.brace.square.begin, meta.brace.square.end, meta.brace.square, punctuation.section.array.begin, punctuation.section.array.end, punctuation.section.array</string>
+			<string>punctuation.definition.array.begin, punctuation.definition.array.end, punctuation.definition.array, meta.group.braces.square, meta.brace.square.begin, meta.brace.square.end, meta.brace.square, punctuation.section.array.begin, punctuation.section.array.end, punctuation.section.array, punctuation.definition.brackets.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -693,6 +693,17 @@
 			<string>HTML: Assignment Operator</string>
 			<key>scope</key>
 			<string>punctuation.separator.key-value.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#999999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML: Any</string>
+			<key>scope</key>
+			<string>meta.tag.inline.any.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1142,6 +1153,52 @@
 			<dict>
 				<key>foreground</key>
 				<string>#CD122C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Object Name</string>
+			<key>scope</key>
+			<string>variable.other.object.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Template Syntax</string>
+			<key>scope</key>
+			<string>punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, punctuation.definition.generic.begin.html, punctuation.definition.generic.end.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CD122C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Object Property</string>
+			<key>scope</key>
+			<string>meta.property.object.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D1D1D1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Object Property Accessor</string>
+			<key>scope</key>
+			<string>punctuation.accessor.js</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#4ECDC4</string>
 			</dict>
 		</dict>
 		<dict>

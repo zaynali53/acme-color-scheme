@@ -51,7 +51,7 @@ settings:
     background: '#CD122C'
 
 - name: 'Statement Terminator'
-  scope: punctuation.terminator.expression
+  scope: punctuation.terminator.expression, punctuation.terminator.statement
   settings:
     foreground: '#D1D1D1'
     fontStyle: 'regular'
@@ -255,7 +255,7 @@ settings:
   scope: punctuation.definition.array.begin, punctuation.definition.array.end,
     punctuation.definition.array, meta.group.braces.square, meta.brace.square.begin,
     meta.brace.square.end, meta.brace.square, punctuation.section.array.begin,
-    punctuation.section.array.end, punctuation.section.array
+    punctuation.section.array.end, punctuation.section.array, punctuation.definition.brackets.js
   settings:
     foreground: '#7C7200'
     fontStyle: 'regular'
@@ -350,6 +350,11 @@ settings:
 
 - name: 'HTML: Assignment Operator'
   scope: punctuation.separator.key-value.html
+  settings:
+    foreground: '#999999'
+
+- name: 'HTML: Any'
+  scope: meta.tag.inline.any.html
   settings:
     foreground: '#999999'
 
@@ -567,6 +572,28 @@ settings:
     variable.other.class.js
   settings:
     foreground: '#CD122C'
+
+- name: 'JS: Object Name'
+  scope: variable.other.object.js
+  settings:
+    foreground: '#FFFFFF'
+
+- name: 'JS: Template Syntax'
+  scope: punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js,
+    punctuation.definition.generic.begin.html, punctuation.definition.generic.end.html
+  settings:
+    foreground: '#CD122C'
+
+- name: 'JS: Object Property'
+  scope: meta.property.object.js
+  settings:
+    foreground: '#D1D1D1'
+
+- name: 'JS: Object Property Accessor'
+  scope: punctuation.accessor.js
+  settings:
+    foreground: '#4ECDC4'
+    fontStyle: 'bold'
 
 # ---------- JSX Highlight
 
