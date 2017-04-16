@@ -235,7 +235,9 @@ settings:
     punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end,
     meta.brace.round, punctuation.definition.arguments.begin, punctuation.definition.arguments.end,
     punctuation.definition.arguments, meta.group.braces.round.function.arguments,
-    punctuation.section.group.begin, punctuation.section.group.end
+    punctuation.section.group.begin, punctuation.section.group.end,
+    punctuation.section.arguments.begin, punctuation.section.arguments.end,
+    punctuation.section.parameters.begin, punctuation.section.parameters.end
   settings:
     foreground: '#4ECDC4'
     fontStyle: 'regular'
@@ -255,10 +257,17 @@ settings:
   scope: punctuation.definition.array.begin, punctuation.definition.array.end,
     punctuation.definition.array, meta.group.braces.square, meta.brace.square.begin,
     meta.brace.square.end, meta.brace.square, punctuation.section.array.begin,
-    punctuation.section.array.end, punctuation.section.array, punctuation.definition.brackets.js
+    punctuation.section.array.end, punctuation.section.array, punctuation.definition.brackets.js,
+    punctuation.section.list.begin, punctuation.section.list.end
   settings:
     foreground: '#7C7200'
     fontStyle: 'regular'
+
+- name: 'JS: Object Property Accessor'
+  scope: punctuation.accessor
+  settings:
+    foreground: '#4ECDC4'
+    fontStyle: 'bold'
 
 - name: 'Embedded Section Punctuation'
   scope: punctuation.section.embedded
@@ -588,12 +597,6 @@ settings:
   scope: meta.property.object.js
   settings:
     foreground: '#D1D1D1'
-
-- name: 'JS: Object Property Accessor'
-  scope: punctuation.accessor.js
-  settings:
-    foreground: '#4ECDC4'
-    fontStyle: 'bold'
 
 # ---------- JSX Highlight
 

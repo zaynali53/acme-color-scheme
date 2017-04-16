@@ -471,7 +471,7 @@
 			<key>name</key>
 			<string>Punctuation (paranthesis)</string>
 			<key>scope</key>
-			<string>punctuation.definition.group, punctuation.definition.group.begin, punctuation.definition.group.end, punctuation.section.function, punctuation.definition.parameters.begin, punctuation.definition.parameters.end, punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end, meta.brace.round, punctuation.definition.arguments.begin, punctuation.definition.arguments.end, punctuation.definition.arguments, meta.group.braces.round.function.arguments, punctuation.section.group.begin, punctuation.section.group.end</string>
+			<string>punctuation.definition.group, punctuation.definition.group.begin, punctuation.definition.group.end, punctuation.section.function, punctuation.definition.parameters.begin, punctuation.definition.parameters.end, punctuation.definition.parameters, meta.brace.round.begin, meta.brace.round.end, meta.brace.round, punctuation.definition.arguments.begin, punctuation.definition.arguments.end, punctuation.definition.arguments, meta.group.braces.round.function.arguments, punctuation.section.group.begin, punctuation.section.group.end, punctuation.section.arguments.begin, punctuation.section.arguments.end, punctuation.section.parameters.begin, punctuation.section.parameters.end</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -497,13 +497,26 @@
 			<key>name</key>
 			<string>Punctuation [square]</string>
 			<key>scope</key>
-			<string>punctuation.definition.array.begin, punctuation.definition.array.end, punctuation.definition.array, meta.group.braces.square, meta.brace.square.begin, meta.brace.square.end, meta.brace.square, punctuation.section.array.begin, punctuation.section.array.end, punctuation.section.array, punctuation.definition.brackets.js</string>
+			<string>punctuation.definition.array.begin, punctuation.definition.array.end, punctuation.definition.array, meta.group.braces.square, meta.brace.square.begin, meta.brace.square.end, meta.brace.square, punctuation.section.array.begin, punctuation.section.array.end, punctuation.section.array, punctuation.definition.brackets.js, punctuation.section.list.begin, punctuation.section.list.end</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>regular</string>
 				<key>foreground</key>
 				<string>#7C7200</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Object Property Accessor</string>
+			<key>scope</key>
+			<string>punctuation.accessor</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#4ECDC4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1175,19 +1188,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#D1D1D1</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS: Object Property Accessor</string>
-			<key>scope</key>
-			<string>punctuation.accessor.js</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#4ECDC4</string>
 			</dict>
 		</dict>
 		<dict>
