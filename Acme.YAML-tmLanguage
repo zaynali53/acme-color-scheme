@@ -630,6 +630,35 @@ settings:
   settings:
     foreground: '#7C7200'
 
+# ---------- Typescript
+
+- name: 'Typescript: "this" Keyword'
+  scope: variable.language.this.ts
+  settings:
+    foreground: '#F62459'
+    fontStyle: 'bold italic'
+
+- name: 'Typescript: Arrow Function'
+  scope: storage.type.function.arrow.ts
+  settings:
+    fontStyle: 'bold'
+
+- name: 'Typescript: Type Annotation'
+  scope: meta.type.annotation.ts, entity.name.type.ts
+  settings:
+    foreground: '#E90A13'
+    fontStyle: 'bold'
+
+- name: 'Typescript: Object Destructuring Assignment'
+  scope: punctuation.definition.binding-pattern.object.ts
+  settings:
+    foreground: '#7C7200'
+
+- name: 'Typescript: Generic Type'
+  scope: punctuation.definition.typeparameters.begin.ts, punctuation.definition.typeparameters.end.ts
+  settings:
+    foreground: '#999999'
+
 # ---------- PHP Highlight
 
 - name: 'PHP: Embedded'

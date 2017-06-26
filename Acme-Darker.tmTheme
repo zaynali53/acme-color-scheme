@@ -1271,6 +1271,65 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Typescript: "this" Keyword</string>
+			<key>scope</key>
+			<string>variable.language.this.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#F62459</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Typescript: Arrow Function</string>
+			<key>scope</key>
+			<string>storage.type.function.arrow.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Typescript: Type Annotation</string>
+			<key>scope</key>
+			<string>meta.type.annotation.ts, entity.name.type.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#E90A13</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Typescript: Object Destructuring Assignment</string>
+			<key>scope</key>
+			<string>punctuation.definition.binding-pattern.object.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7C7200</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Typescript: Generic Type</string>
+			<key>scope</key>
+			<string>punctuation.definition.typeparameters.begin.ts, punctuation.definition.typeparameters.end.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#999999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP: Embedded</string>
 			<key>scope</key>
 			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
