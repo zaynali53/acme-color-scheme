@@ -1170,13 +1170,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS: Template Syntax</string>
+			<string>JS: Template Expression</string>
 			<key>scope</key>
 			<string>punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, punctuation.definition.generic.begin.html, punctuation.definition.generic.end.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CD122C</string>
+				<string>#67809F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1315,6 +1315,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#999999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Typescript: Template Expression</string>
+			<key>scope</key>
+			<string>punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#67809F</string>
 			</dict>
 		</dict>
 		<dict>
